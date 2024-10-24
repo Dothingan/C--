@@ -20,7 +20,7 @@ int main(){
             if(1/factorial(n)<epsilon)
                 break;
         }
-        cout << e;
+        printf("%.5f", e);
     }
     else{
         cout << "Yeu cau nhap 0< epsilon <1";
